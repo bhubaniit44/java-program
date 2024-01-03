@@ -1,6 +1,17 @@
+<<<<<<< HEAD
+import java.util.Scanner;
+public class test3 {
+ public static void main(String[] args) {
+    System.out.println("what is your name ");
+    Scanner sc=new Scanner(System.in);
+    String name=sc.next();
+    System.out.println(" Hello " + name + " Have a Good Day! ");
+ }  
+}
+=======
         // calculating percentage  cbse borad exam marks from 5 subjects  
          import java.util.Scanner;
-         public class test3 {
+         public class test2 {
           public static void main(String[] args) {
            Scanner sc= new Scanner(System.in);
             float total   = 500;
@@ -23,3 +34,4 @@
             System.out.println(CGPA);
         }
     }
+>>>>>>> 1b09772 (java program which asks the user to enter his/her name)
